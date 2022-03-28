@@ -22,7 +22,7 @@ public class SiteLinks {
                     .userAgent("Mozilla")
                     .cookie("auth", "token")
                     .timeout(5 * 1000)
-                    .post();
+                    .get();
         } catch (IOException e) {
             e.printStackTrace();
         }
